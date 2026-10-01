@@ -123,11 +123,10 @@ In `queries/beispiele.cypher`, unter anderem:
 - Die Abstandstoleranz (Standard 250 m) ist ein Kompromiss zwischen Fehlzuordnungen und Lücken. Abfrage 8 zeigt die Lücken.
 
 ## Ausbaustufen
-- [ ] Vervollständigung der Datensätze mit Namen
+- [ ] Anreicherung der Stammdaten
 - [ ] Verlinkung zu OpenStreetMap 
 - [ ] Automatisierte Datenqualitätsprüfungen mit Report (Vollständigkeit, Konsistenz, verwaiste Objekte)
-- [ ] Digitaler-Zwilling-Analysen: Ausfallauswirkung eines Umspannwerks, kritische Knoten (Graph Data Science)
-- [ ] Anreicherung um Anlagenstammdaten aus dem Marktstammdatenregister
+- [ ] Netztopologie-Analysen
 - [ ] Natürlichsprachige Abfragen über einen KI-Agenten (Text → Cypher)
 
 ## Daten und Lizenz
