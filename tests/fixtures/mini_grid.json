@@ -1,0 +1,210 @@
+{
+ "version": 0.6,
+ "elements": [
+  {
+   "type": "way",
+   "id": 1,
+   "nodes": [
+    1,
+    2,
+    3,
+    4,
+    1
+   ],
+   "geometry": [
+    {
+     "lat": 51.499,
+     "lon": 7.399
+    },
+    {
+     "lat": 51.499,
+     "lon": 7.401000000000001
+    },
+    {
+     "lat": 51.501,
+     "lon": 7.401000000000001
+    },
+    {
+     "lat": 51.501,
+     "lon": 7.399
+    },
+    {
+     "lat": 51.499,
+     "lon": 7.399
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "name": "UA Alpha",
+    "operator": "Amprion GmbH",
+    "voltage": "380000;220000"
+   }
+  },
+  {
+   "type": "node",
+   "id": 2,
+   "lat": 51.55,
+   "lon": 7.5,
+   "tags": {
+    "power": "substation",
+    "name": "UA Beta",
+    "operator": "amprion",
+    "voltage": "380000"
+   }
+  },
+  {
+   "type": "relation",
+   "id": 3,
+   "members": [
+    {
+     "type": "way",
+     "ref": 99,
+     "role": "outer",
+     "geometry": [
+      {
+       "lat": 51.599000000000004,
+       "lon": 7.399
+      },
+      {
+       "lat": 51.599000000000004,
+       "lon": 7.401000000000001
+      },
+      {
+       "lat": 51.601,
+       "lon": 7.401000000000001
+      },
+      {
+       "lat": 51.601,
+       "lon": 7.399
+      },
+      {
+       "lat": 51.599000000000004,
+       "lon": 7.399
+      }
+     ]
+    }
+   ],
+   "tags": {
+    "power": "substation",
+    "type": "multipolygon",
+    "operator": "Amprion",
+    "voltage": "220000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 101,
+   "nodes": [
+    10,
+    11,
+    1001
+   ],
+   "geometry": [
+    {
+     "lat": 51.5,
+     "lon": 7.4
+    },
+    {
+     "lat": 51.51,
+     "lon": 7.42
+    },
+    {
+     "lat": 51.52,
+     "lon": 7.45
+    }
+   ],
+   "tags": {
+    "power": "line",
+    "voltage": "380000",
+    "circuits": "2",
+    "operator": "Amprion GmbH",
+    "name": "Alpha-Beta Nord"
+   }
+  },
+  {
+   "type": "way",
+   "id": 102,
+   "nodes": [
+    1001,
+    12,
+    20
+   ],
+   "geometry": [
+    {
+     "lat": 51.52,
+     "lon": 7.45
+    },
+    {
+     "lat": 51.54,
+     "lon": 7.48
+    },
+    {
+     "lat": 51.5505,
+     "lon": 7.5
+    }
+   ],
+   "tags": {
+    "power": "line",
+    "voltage": "380000",
+    "circuits": "2",
+    "operator": "Amprion GmbH"
+   }
+  },
+  {
+   "type": "way",
+   "id": 103,
+   "nodes": [
+    30,
+    31
+   ],
+   "geometry": [
+    {
+     "lat": 51.5005,
+     "lon": 7.4005
+    },
+    {
+     "lat": 51.6,
+     "lon": 7.4
+    }
+   ],
+   "tags": {
+    "power": "line",
+    "voltage": "220000",
+    "circuits": "1;2",
+    "operator": "Amprion"
+   }
+  },
+  {
+   "type": "way",
+   "id": 104,
+   "nodes": [
+    1001,
+    40
+   ],
+   "geometry": [
+    {
+     "lat": 51.52,
+     "lon": 7.45
+    },
+    {
+     "lat": 51.53,
+     "lon": 7.3
+    }
+   ],
+   "tags": {
+    "power": "line",
+    "voltage": "220000"
+   }
+  },
+  {
+   "type": "way",
+   "id": 105,
+   "nodes": [],
+   "geometry": [],
+   "tags": {
+    "power": "line",
+    "voltage": "380000"
+   }
+  }
+ ]
+}
