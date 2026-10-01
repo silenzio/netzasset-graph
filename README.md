@@ -1,4 +1,5 @@
 # netzasset-graph
+<img width="1232" height="659" alt="Graph" src="https://github.com/user-attachments/assets/49e91372-571f-4208-8acb-ab63eb8e4522" />
 
 Das Höchstspannungsnetz (220/380 kV) in Nordrhein-Westfalen als **Graph in Neo4j**, aufgebaut aus offenen OpenStreetMap-Daten über eine reproduzierbare **ETL-Pipeline**.
 
